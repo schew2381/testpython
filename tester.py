@@ -1,5 +1,3 @@
-# type: ignore
-
 import sentry_sdk
 sentry_sdk.init(
     dsn="https://a9ee78acce5c4aa1a36cb471e9ba5d23@o4504765715316736.ingest.sentry.io/4504765725671424",
