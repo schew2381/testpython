@@ -8,10 +8,12 @@ sentry_sdk.init(
     traces_sample_rate=1.0,
 )
 
-
-division_by_zero = 1 / 0
-
 def traces_sampler(sampling_context):
     # ...
     # return a number between 0 and 1 or a boolean
     return True
+
+division_by_zero = 1 / 0
+
+raise ValueError
+
