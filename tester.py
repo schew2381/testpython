@@ -8,7 +8,6 @@ sentry_sdk.init(
     traces_sample_rate=1.0,
 )
 
-# variable error
-a
+raise ImportError
 
 print("No Errors!")
